@@ -1,0 +1,17 @@
+{
+    "name": "Geolocation Progessive Web App",
+    "short_name": "cap-geolocation",
+    "icons": [
+        {
+            "src": "./images/images.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "pages/login.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}

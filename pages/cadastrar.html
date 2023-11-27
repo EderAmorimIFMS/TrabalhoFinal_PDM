@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="exemplo de fallback">
+    <meta name="theme-color" content="white" />
+    <link rel="apple-touch-icon" href="./images/images.png" />
+    <link rel="icon" href="./images/images.png" sizes="512x512"/>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="./js/main.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <title>Em Foco!</title>
+</head>
+<body>
+    <!----hamburguer menu---->
+    <div class="ham-menu">
+        <div class="line-4"></div>
+        <div class="line-5"></div>
+        <div class="line-6"></div>
+    </div>
+    <!----fim ham. menu ---->
+    <div class="cadastro-de-focos-comunidade">
+
+        <p class="titulo">Cadastro de Foco da dengue</p>
+        
+        <div>
+            <p class="label">Descrição:</p>
+            <textarea class="textarea" rows="5" cols="55,9"></textarea>
+        </div>
+
+        <button class="capturar">Capturar localização</button>
+        <iframe class="mapa" src="https://www.google.com/maps?q=,&z=16&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <button class="tirar-foto">Tirar Foto</button>
+
+        <button class="button-submit">Fazer a notificação!</button>
+
+      </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
